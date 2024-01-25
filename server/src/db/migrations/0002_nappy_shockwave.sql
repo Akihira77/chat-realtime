@@ -1,0 +1,1 @@
+ALTER TABLE "Messages" RENAME COLUMN "is_read" TO "unread";

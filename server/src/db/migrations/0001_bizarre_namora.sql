@@ -1,0 +1,1 @@
+ALTER TABLE "Messages" ALTER COLUMN "is_read" SET DEFAULT true;

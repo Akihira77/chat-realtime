@@ -1,0 +1,38 @@
+.conversationName {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.conversationAvatar {
+	img {
+		height: 40px;
+		width: 40px;
+		border-radius: 100%;
+	}
+}
+
+.conversationLastMessage {
+	font-size: 14px;
+	color: rgb(163, 163, 163);
+}
+
+.heading_menu {
+	display: flex;
+	gap: 1.5rem;
+
+	& div:hover {
+		cursor: pointer;
+	}
+}
+
+.heading_dot {
+	button {
+		border: none;
+		background-color: inherit;
+		color: #fff;
+	}
+}
+
+.dropdown_toggle::after {
+	display: none;
+}
